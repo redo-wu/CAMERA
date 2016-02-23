@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/content_main_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/flashlight">
+      
+    </ImageView>
+    
+    
+    <ImageView
+
+        android:id="@+id/conter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:onClick="onClick_FlashLight"
+        android:layout_marginBottom="285dp" />
+
+    <ImageView
+
+        android:id="@+id/conter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:onClick="onClick_JinDi"
+        android:layout_marginBottom="180dp" 
+        android:layout_marginLeft="-25dp"/>
+        
+</FrameLayout>
